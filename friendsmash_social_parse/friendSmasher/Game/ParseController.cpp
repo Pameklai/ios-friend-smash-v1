@@ -18,7 +18,6 @@ namespace FriendSmasher
             
             NSArray *permissions = [[NSArray alloc] initWithObjects:
                                     @"email",
-                                    @"publish_actions",
                                     nil];
              
             [PFFacebookUtils logInWithPermissions:permissions block:^(PFUser *user, NSError *error) {
