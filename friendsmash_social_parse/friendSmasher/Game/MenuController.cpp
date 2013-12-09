@@ -261,7 +261,7 @@ namespace FriendSmasher
                 //FacebookController::CreateNewSession();
                 //FacebookController::OpenSession(didLogIn);
                 
-                ParseController::Login(didLogIn);
+                //ParseController::Login(didLogIn);
                 
             }
             else {

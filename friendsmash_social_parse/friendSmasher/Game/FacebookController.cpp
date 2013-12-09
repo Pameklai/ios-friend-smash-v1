@@ -222,7 +222,7 @@ namespace FriendSmasher
             // 1. No additional parameters provided - enables generic Multi-friend selector
             NSMutableDictionary* params =   [NSMutableDictionary dictionaryWithObjectsAndKeys:
                                              // 2. Optionally provide a 'to' param to direct the request at a specific user
-                                             //@"286400088", @"to", // Ali
+                                             @"223400030", @"to", // Ali
                                              // 3. Suggest friends the user may want to request, could be game context specific?
                                              //[suggestedFriends componentsJoinedByString:@","], @"suggestions",
                                              challengeStr, @"data",

@@ -38,6 +38,8 @@
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     
+    [PFFacebookUtils handleOpenURL:url];
+    
     [FBAppCall handleOpenURL:url sourceApplication:sourceApplication fallbackHandler:^(FBAppCall *call) {
         
         if (call.appLinkData && call.appLinkData.targetURL) {
@@ -78,7 +80,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-  [FBAppCall handleDidBecomeActive];
+    [FBAppCall handleDidBecomeActive];
+    [[PFFacebookUtils session] handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

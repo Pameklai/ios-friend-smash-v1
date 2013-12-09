@@ -36,6 +36,8 @@
 		A0260A1215C1921800EA753F /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0260A1115C1921800EA753F /* GameController.cpp */; };
 		A03DE24F160E55AE003CF127 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03DE24E160E55AE003CF127 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A03DE251160E55B6003CF127 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03DE250160E55B6003CF127 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A04DECA21856169900A6D954 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04DECA11856169900A6D954 /* Parse.framework */; };
+		A04DECA41856171400A6D954 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04DECA31856171400A6D954 /* FacebookSDK.framework */; };
 		A059D25615F68FEF00D0F094 /* frontscreen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A059D25515F68FEF00D0F094 /* frontscreen_background.png */; };
 		A05CC36E16031808007FE563 /* logout_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A05CC36D16031808007FE563 /* logout_button.png */; };
 		A06CD99218101765004DF823 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A06CD99018101765004DF823 /* Default.png */; };
@@ -102,10 +104,8 @@
 		A0E217311600C80900414F9E /* playnow_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E217301600C80900414F9E /* playnow_button.png */; };
 		A0E217351600D0FD00414F9E /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0E217341600D0FD00414F9E /* Avenir.ttc */; };
 		A0E217371600DE7D00414F9E /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E217361600DE7D00414F9E /* login_button.png */; };
-		A0E34435181D4F58008D7A38 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E34434181D4F58008D7A38 /* FacebookSDK.framework */; };
 		A0E34437181D55B5008D7A38 /* bombbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E34436181D55B5008D7A38 /* bombbutton.png */; };
 		A0E3443C181D9547008D7A38 /* ParseController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0E3443A181D9547008D7A38 /* ParseController.cpp */; };
-		A0E3443E181DDADA008D7A38 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E3443D181DDADA008D7A38 /* Parse.framework */; };
 		F9DEF42E172EE1B800A903E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEF42D172EE1B800A903E0 /* Security.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F9DEF43A172F194500A903E0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEF439172F194500A903E0 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
@@ -171,6 +171,8 @@
 		A0260A1115C1921800EA753F /* GameController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = GameController.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		A03DE24E160E55AE003CF127 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A03DE250160E55B6003CF127 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A04DECA11856169900A6D954 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A04DECA31856171400A6D954 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		A059D25515F68FEF00D0F094 /* frontscreen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontscreen_background.png; sourceTree = "<group>"; };
 		A05CC36D16031808007FE563 /* logout_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout_button.png; sourceTree = "<group>"; };
 		A06CD99018101765004DF823 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -257,11 +259,9 @@
 		A0E217301600C80900414F9E /* playnow_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playnow_button.png; sourceTree = "<group>"; };
 		A0E217341600D0FD00414F9E /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
 		A0E217361600DE7D00414F9E /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
-		A0E34434181D4F58008D7A38 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		A0E34436181D55B5008D7A38 /* bombbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombbutton.png; sourceTree = "<group>"; };
 		A0E3443A181D9547008D7A38 /* ParseController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; path = ParseController.cpp; sourceTree = "<group>"; };
 		A0E3443B181D9547008D7A38 /* ParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseController.h; sourceTree = "<group>"; };
-		A0E3443D181DDADA008D7A38 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		F9DEF42D172EE1B800A903E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F9DEF439172F194500A903E0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -271,8 +271,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E34435181D4F58008D7A38 /* FacebookSDK.framework in Frameworks */,
 				A06CD9B218107AB3004DF823 /* MobileCoreServices.framework in Frameworks */,
+				A04DECA41856171400A6D954 /* FacebookSDK.framework in Frameworks */,
 				A06CD9A118107564004DF823 /* AudioToolbox.framework in Frameworks */,
 				A06CD9A518107599004DF823 /* CFNetwork.framework in Frameworks */,
 				A009E49815B578A8000604D1 /* CoreGraphics.framework in Frameworks */,
@@ -285,7 +285,7 @@
 				F9DEF43A172F194500A903E0 /* libsqlite3.dylib in Frameworks */,
 				A0A92CFE16164C5700D36362 /* AdSupport.framework in Frameworks */,
 				A03DE24F160E55AE003CF127 /* Accounts.framework in Frameworks */,
-				A0E3443E181DDADA008D7A38 /* Parse.framework in Frameworks */,
+				A04DECA21856169900A6D954 /* Parse.framework in Frameworks */,
 				A03DE251160E55B6003CF127 /* Social.framework in Frameworks */,
 				A009E49415B578A8000604D1 /* UIKit.framework in Frameworks */,
 				A009E49615B578A8000604D1 /* Foundation.framework in Frameworks */,
@@ -323,8 +323,8 @@
 		A009E49215B578A8000604D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0E3443D181DDADA008D7A38 /* Parse.framework */,
-				A0E34434181D4F58008D7A38 /* FacebookSDK.framework */,
+				A04DECA31856171400A6D954 /* FacebookSDK.framework */,
+				A04DECA11856169900A6D954 /* Parse.framework */,
 				A06CD9AE181076EC004DF823 /* libz.1.1.3.dylib */,
 				A06CD9AC1810765C004DF823 /* MobileCoreServices.framework */,
 				A06CD9AA1810762B004DF823 /* SystemConfiguration.framework */,
@@ -797,14 +797,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../../Documents/FacebookSDK\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
 					"$(SRCROOT)",
 					"/Users/aliparr/Desktop/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_complete",
 					/Users/aliparr/Documents/FacebookSDK,
 					"/Users/aliparr/Desktop/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_social_parse",
+					"/Users/aliparr/Development/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_social_parse",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "friendSmasher/friendSmasher-Prefix.pch";
@@ -827,14 +828,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\\\\\"$(SRCROOT)/../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../Documents/FacebookSDK\\\\\\\"",
-					"\\\\\\\"$(SRCROOT)/../../../../Documents/FacebookSDK\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
+					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../../../Documents/FacebookSDK\\\\\\\\\\\\\\\"",
 					"$(SRCROOT)",
 					"/Users/aliparr/Desktop/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_complete",
 					/Users/aliparr/Documents/FacebookSDK,
 					"/Users/aliparr/Desktop/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_social_parse",
+					"/Users/aliparr/Development/Friend\\ Smash/FBSamples\\ Github/ios-friend-smash/friendsmash_social_parse",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "friendSmasher/friendSmasher-Prefix.pch";
