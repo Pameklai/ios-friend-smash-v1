@@ -452,10 +452,10 @@ namespace FriendSmasher
             ms_uBombs += uBombsRemaining;
             m_uScore = uScore;
             
-            m_labelScore.text = [NSString stringWithFormat:@"You smashed %@ %u times!", friendName, uScore];
+            m_labelScore.text = uScore == 1 ? [NSString stringWithFormat:@"You smashed %@ %u time!", friendName, uScore] : [NSString stringWithFormat:@"You smashed %@ %u times!", friendName, uScore];
             m_labelScore.hidden = NO;
             
-            m_labelCoinsWon.text = [NSString stringWithFormat:@"Collected %u coins!", uCoinsWon];
+            m_labelCoinsWon.text = uCoinsWon == 1 ? [NSString stringWithFormat:@"Collected %u coin!", uCoinsWon] : [NSString stringWithFormat:@"Collected %u coins!", uCoinsWon];
             m_labelCoinsWon.hidden = NO;
            
             m_labelCoins.text = [NSString stringWithFormat:@"%d", ms_uCoins];
